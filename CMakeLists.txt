@@ -33,7 +33,7 @@ set(libs
     m
 	event)
 
-ADD_DEFINITIONS(-Wall -O2 --std=gnu99 -Wmissing-declarations)
+ADD_DEFINITIONS(-Wall -O2 -gdwarf --std=gnu99 -Wmissing-declarations)
 
 
 add_executable(xkcp_spy ${src_xkcp_spy})
